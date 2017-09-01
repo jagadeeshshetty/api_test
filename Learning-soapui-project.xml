@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="2085fc90-fe66-4e4f-982d-cd250be0b119" activeEnvironment="Default" name="Learning" resourceRoot="" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="b5541de0-4b74-4179-b549-61b70dbe57b0" name="TestSuite_GroovyBasics"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="81a18580-53a3-40d0-8141-bbdf42d30208" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase_GroovyStuff" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script- Assertions" id="de3ce135-3f7a-4121-9561-8cddfe3a2608"><con:settings/><con:config><script>
+expectedName = 'John'
+actualName = 'John'
+
+log.info 'Before assertion'
+assert expectedName == actualName
+log.info 'After assertion'
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
